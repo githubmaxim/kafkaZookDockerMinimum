@@ -1,6 +1,6 @@
 spring:
   kafka:
-    bootstrap-servers: kafka:29092
+    bootstrap-servers: kafka:29092, kafka2:29093,kafka3:29094
 
     consumer:
       group-id: "order-1"
